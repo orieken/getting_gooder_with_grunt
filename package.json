@@ -1,0 +1,34 @@
+{
+  "name": "getting_gooder_with_grunt",
+  "version": "1.0.0",
+  "description": "practicing grunt tasks",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orieken/getting_gooder_with_grunt.git"
+  },
+  "keywords": [
+    "grunt",
+    "node"
+  ],
+  "author": "Oscar Rieken",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/orieken/getting_gooder_with_grunt/issues"
+  },
+  "homepage": "https://github.com/orieken/getting_gooder_with_grunt#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-karma": "^2.0.0",
+    "jasmine": "^2.4.1",
+    "karma": "^0.13.22",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-jasmine": "^1.0.2",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "phantomjs-prebuilt": "^2.1.7"
+  }
+}

@@ -1,0 +1,7 @@
+(function () {
+  describe("Examples:", function(){
+    it("true is true", function(){
+    expect(true).toEqual(true);
+    });
+  })
+})();

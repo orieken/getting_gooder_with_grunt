@@ -1,0 +1,26 @@
+{
+  "name": "getting_gooder_with_grunt",
+  "description": "practicing grunt tasks",
+  "main": "index.js",
+  "authors": [
+    "Oscar Rieken"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "grunt",
+    "node"
+  ],
+  "homepage": "https://github.com/orieken/getting_gooder_with_grunt",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular": "^1.5.6",
+    "angular-route": "^1.5.6"
+  }
+}

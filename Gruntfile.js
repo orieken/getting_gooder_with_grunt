@@ -4,7 +4,13 @@ module.exports = function(grunt) {
       unit: {
         configFile: "karma-unit.conf.js"
       }
+    },
+    bower: {
+      dev: {
+        dest: 'bower_components'
+      }
     }
+
   });
 
   grunt.loadNpmTasks("grunt-karma");

@@ -22,6 +22,7 @@
   "homepage": "https://github.com/orieken/getting_gooder_with_grunt#readme",
   "devDependencies": {
     "grunt": "^1.0.1",
+    "grunt-bower": "^0.21.2",
     "grunt-cli": "^1.2.0",
     "grunt-karma": "^2.0.0",
     "jasmine": "^2.4.1",

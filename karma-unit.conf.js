@@ -1,10 +1,9 @@
 module.exports = function(config) {
   config.set({
-    frameworks: ["jasmine"],
-    browsers: ["PhantomJS"],
+    frameworks: ['jasmine'],
+    browsers: ['PhantomJS'],
     files: [
-        "spec/unit/*.spec.js"
+        'spec/unit/*.spec.js'
     ]
   })
-
 };

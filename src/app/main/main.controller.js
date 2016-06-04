@@ -4,5 +4,5 @@ angular
 
 function MainController($scope) {
 
-  $scope.welcomeMessage = 'Welcome to the Pizza Store';
+  $scope.welcomeMessage = 'Welcome to the Pizza Store!';
 }

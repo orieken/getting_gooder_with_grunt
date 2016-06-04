@@ -24,12 +24,17 @@
     "grunt": "^1.0.1",
     "grunt-bower": "^0.21.2",
     "grunt-cli": "^1.2.0",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-devserver": "^0.6.0",
     "grunt-karma": "^2.0.0",
     "jasmine": "^2.4.1",
     "karma": "^0.13.22",
     "karma-chrome-launcher": "^1.0.1",
     "karma-jasmine": "^1.0.2",
     "karma-phantomjs-launcher": "^1.0.0",
-    "phantomjs-prebuilt": "^2.1.7"
+    "phantomjs-prebuilt": "^2.1.7",
+    "protractor": "^3.3.0",
+    "webdriver-manager": "^10.0.2"
   }
 }

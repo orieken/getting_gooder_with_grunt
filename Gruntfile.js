@@ -9,10 +9,17 @@ module.exports = function(grunt) {
       dev: {
         dest: 'bower_components'
       }
+    },
+    devserver: {
+      server: {
+        base: './src/app/',
+        port: 8888
+      }
     }
-
   });
 
   grunt.loadNpmTasks("grunt-karma");
+  grunt.loadNpmTasks('grunt-contrib-connect');
+  grunt.loadNpmTasks('grunt-devserver')
 
 };

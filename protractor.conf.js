@@ -1,6 +1,10 @@
 exports.config = {
   seleniumAddress: 'http://localhost:4444/wd/hub',
-  specs: ['spec/e2e/PageObject.js', 'spec/e2e/main/MainController.spec.js'],
+  specs: [
+    'spec/e2e/PageObjects.js',
+    'spec/e2e/main/Main.controller.spec.js',
+    'spec/e2e/orderStatus/OrderStatus.controller.spec.js'
+  ],
   capabilities: {
     browserName: 'chrome'
   },

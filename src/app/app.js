@@ -3,8 +3,12 @@ angular
   .config(function($routeProvider) {
     $routeProvider
         .when('/', {
-          templateUrl: 'main/main.html',
-          controller: 'MainController'
+          templateUrl: 'selectPizza/selectPizza.html',
+          controller: 'SelectPizzaController'
+        })
+        .when('/order-status', {
+          templateUrl: 'orderStatus/orderStatus.html',
+          controller: 'OrderStatusController'
         })
         .otherwise({
           redirectTo: '/'

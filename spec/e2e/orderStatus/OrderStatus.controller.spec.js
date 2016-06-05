@@ -1,28 +1,21 @@
-(function () {
-  describe('unit controller: OrderStatusController', function () {
-    var $scope, $controller;
+describe('unit controller: OrderStatusController', function () {
+  describe('PlaceOrder:  ', function () {
+    it('navigates to order status page after order is placed', function (done) {
+      browser.get('http://localhost:8888/src/app/');
 
-    beforeEach(module('pizzaStore'));
-    beforeEach(function(){});
-    beforeEach(inject(function ($rootScope, _$controller_) {
-      $scope = $rootScope.$new();
-      $controller = _$controller_('OrderStatusController', {
-        $scope: $scope
-      });
-    }));
+      expect(browser.getLocationAbsUrl()).toBe('/');
 
-    describe('PlaceOrder:  ', function () {
-      it('is defined', function (done) {
-        expect($controller).toBeDefined();
-        done();
-      });
+      var pizzaTypeOptions = element.all(by.tagName('option'));
+      pizzaTypeOptions.get(1).click();
 
-      it('navigates to order status page after order is placed', function(){
-        browser.get('/#/');
+      var selectedPizzaType = element(by.css('option:checked'));
+      expect(selectedPizzaType.getText()).toEqual(pizzaTypeOptions.get(0).getText());
 
-        expect(browser.getLocationAbsUrl()).toBe('/');
-      })
+      var placeOrderButton = element(by.buttonText('Place Order'));
+      placeOrderButton.click();
 
+      expect(browser.getLocationAbsUrl()).toBe('/order-status');
+      done()
     });
   });
-})();
+});

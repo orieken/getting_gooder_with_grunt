@@ -4,7 +4,8 @@
   "description": "practicing grunt tasks",
   "main": "index.js",
   "scripts": {
-    "test": "grunt test"
+    "test": "grunt karma:unit",
+    "postinstall": "bower install"
   },
   "repository": {
     "type": "git",
@@ -21,7 +22,7 @@
   },
   "homepage": "https://github.com/orieken/getting_gooder_with_grunt#readme",
   "devDependencies": {
-    "grunt": "^1.0.1",
+    "grunt": "^0.4.5",
     "grunt-bower": "^0.21.2",
     "grunt-cli": "^1.2.0",
     "grunt-contrib-connect": "^1.0.2",

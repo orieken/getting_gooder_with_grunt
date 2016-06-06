@@ -9,6 +9,7 @@ module.exports = function (config) {
 
       'src/app/app.js',
       'src/app/components/order/Order.service.js',
+      'src/app/components/accordion/accordion.directive.js',
       'src/app/orderStatus/orderStatus.controller.js',
       'src/app/selectPizza/SelectPizza.controller.js',
       'src/app/main/main.controller.js',
